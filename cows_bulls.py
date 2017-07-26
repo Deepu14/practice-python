@@ -18,7 +18,7 @@ import sys
 def cows_bulls():
     num = ''.join([random.choice(string.digits) for i in range(4)])
     num = list(num)
-    print(num)
+    #print(num)
     cows = 0
     bulls = 0
     guess=0
